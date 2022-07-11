@@ -1,3 +1,4 @@
+import 'bootstrap/dist/css/bootstrap.min.css'
 import logo from './dictionary.png'
 import './App.css'
 
