@@ -1,14 +1,19 @@
-// import 'bootstrap/dist/css/bootstrap.min.css'
 import logo from './dictionary.png'
+import Dictionary from './componenets/dictionary'
 // import './App.css'
 
 function App() {
   return (
     <div className="App">
-      <header>
-        <img src={logo} alt="Dictionary-logo" className="logo img-fluid " />
-      </header>
-      <h1 className="fs-1">Dictionary</h1>
+      <div className="container">
+        <header>
+          <img src={logo} alt="Dictionary-logo" className="logo img-fluid " />
+        </header>
+        <main>
+          <Dictionary />
+        </main>
+        <footer className="footer text-center">Coded by Mansura Akter</footer>
+      </div>
     </div>
   )
 }
