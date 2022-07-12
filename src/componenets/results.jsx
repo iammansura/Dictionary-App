@@ -1,7 +1,6 @@
 import React from 'react'
 import Meaning from './meaning'
 export default function Reasults(props) {
-  console.log(props.reasult)
   if (props.reasult) {
     return (
       <div className="reasults">
