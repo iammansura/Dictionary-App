@@ -6,19 +6,21 @@ export default function Reasults(props) {
   if (props.reasult) {
     return (
       <div className="reasults">
-        <h2>{props.reasult.word}</h2>
-        {props.reasult.phonetics.map(function (phonetic, index) {
-          return (
-            <div key={index}>
-              <Phonetic phonetic={phonetic} />
-            </div>
-          )
-        })}
+        <section>
+          <h2 className="word">{props.reasult.word}</h2>
+          {props.reasult.phonetics.map(function (phonetic, index) {
+            return (
+              <div key={index}>
+                <Phonetic phonetic={phonetic} />
+              </div>
+            )
+          })}
+        </section>
         {props.reasult.meanings.map(function (meaning, index) {
           return (
-            <div key={index}>
+            <section key={index}>
               <Meaning meaning={meaning} />
-            </div>
+            </section>
           )
         })}
       </div>

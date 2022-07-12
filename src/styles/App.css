@@ -1,5 +1,9 @@
-.App {
+body {
   background: antiquewhite;
+}
+a {
+  color: blueviolet;
+  margin-right: 10px;
 }
 .logo {
   max-width: 60px;
@@ -8,6 +12,6 @@
 }
 .footer {
   margin: 30px 0;
-  color: blue;
+  color: rgb(97, 97, 100);
   font-weight: 500;
 }
