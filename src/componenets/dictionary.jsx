@@ -20,6 +20,7 @@ export default function Dictionary() {
           placeholder="Type a word"
           onChangeCapture={updatevalue}
         />
+        <input type="submit" value="Search" />
       </form>
     </div>
   )
