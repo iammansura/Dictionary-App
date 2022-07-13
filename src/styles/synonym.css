@@ -1,3 +1,10 @@
 .synonyms {
   list-style: none;
+  margin-top: 5px;
+}
+.synonyms li {
+  display: inline-block;
+  color: rgb(22, 21, 21);
+  padding-right: 15px;
+  line-height: 1;
 }

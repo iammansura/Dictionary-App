@@ -1,9 +1,9 @@
 .dictionary section {
-  background-color: rgb(220, 241, 241);
+  background-color: rgb(216, 248, 248);
   padding: 30px 30px;
   margin: 15px;
   border-radius: 8px;
-  box-shadow: 0px 10px 5px rgb(82, 84, 84);
+  box-shadow: 0px 10px 5px rgb(140, 142, 142);
 }
 .dictionary input {
   padding: 6px;
