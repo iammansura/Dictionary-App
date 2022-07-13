@@ -68,7 +68,7 @@ export default function Dictionary(props) {
             <input type="submit" value="Search" className="submit" />
           </form>
           <div className="hint mt-2 text-muted">
-            suggested words : water, love, Heart, sunrise
+            i.e. Star, Moon, Galaxy, Universe
           </div>
         </section>
         <Reasults reasult={reasult} />

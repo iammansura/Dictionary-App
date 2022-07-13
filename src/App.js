@@ -10,16 +10,30 @@ function App() {
           <img src={logo} alt="Dictionary-logo" className="logo img-fluid " />
         </header>
         <main>
-          <Dictionary keyWord="bangladesh" />
+          <Dictionary keyWord="Galaxy" />
         </main>
         <footer className="footer text-center">
-          Coded by
+          Open-Sourced on
           <a
             href="https://github.com/iammansura/Dictionary-App"
             alt="GitHub link"
           >
             {' '}
-            Mansura Akter{' '}
+            GitHub
+          </a>
+          and hosted on{' '}
+          <a
+            href="https://mansuras-dictionary-app.netlify.app"
+            alt="Netlify link"
+          >
+            Netlify
+          </a>
+          coded by{' '}
+          <a
+            href="https://www.linkedin.com/in/mansura-akter-bb377023a/"
+            alt="GitHub link"
+          >
+            Mansura Akter
           </a>
         </footer>
       </div>
