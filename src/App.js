@@ -10,9 +10,18 @@ function App() {
           <img src={logo} alt="Dictionary-logo" className="logo img-fluid " />
         </header>
         <main>
-          <Dictionary keyWord="Phone" />
+          <Dictionary keyWord="bangladesh" />
         </main>
-        <footer className="footer text-center">Coded by Mansura Akter</footer>
+        <footer className="footer text-center">
+          Coded by
+          <a
+            href="https://github.com/iammansura/Dictionary-App"
+            alt="GitHub link"
+          >
+            {' '}
+            Mansura Akter{' '}
+          </a>
+        </footer>
       </div>
     </div>
   )
