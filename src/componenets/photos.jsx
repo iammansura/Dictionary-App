@@ -7,9 +7,13 @@ export default function Photos({ photos }) {
         <div className="row">
           {photos.map(function (photo, index) {
             return (
-              <div className="col-4 mr-0" key={index}>
+              <div className="col-4 mb-2" key={index}>
                 <a href={photo.src.original} target="_blank" rel="noreferrer">
-                  <img src={photo.src.tiny} className="img-fluid" />
+                  <img
+                    src={photo.src.tiny}
+                    alt="photos what you search"
+                    className="img-fluid"
+                  />
                 </a>
               </div>
             )
